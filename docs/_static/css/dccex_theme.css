@@ -1,3 +1,4 @@
+
 .wy-nav-content {
     max-width: none
 }
@@ -11,11 +12,22 @@
     height: auto;
     margin: 5% 15%;
 }
-
-.rst-content table.docutils{
+/* Specific Markup for front page table with images */
+div.rst-content  div#dcc-ex-model-railroading table.docutils {
     width: 50%;
     margin: 0 25%;
 }
+
+/* Tables full width */
+.rst-content table.docutils{
+    width: auto;
+    margin: 0;
+}
+/* Wrap text within Tables */
+div.wy-table-responsive table td, div.wy-table-responsive table th {
+    white-space: normal!important;
+}
+
 
 @media screen and (max-width:1400px) {
     .rst-content table.docutils {

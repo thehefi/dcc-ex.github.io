@@ -19,7 +19,7 @@ Read the documentation
 
 This one's pretty obvious, but it's read the documentation! Most importantly, read the :doc:`EX-RAIL-intro` to get familiar with the very basics and the examples provided, and pay attention to the syntax.
 
-Pay attention to the author's note also to understand why DCC++ EX was created in the first place, and particular his comment on "reversing the usual assumptions", which leads us to tip 2.
+Pay attention to the author's note also to understand why DCC++ EX was created in the first place, and in particular his comment on "reversing the usual assumptions", which takes us to our first real tip...
 
 Think from the Engineer's perspective
 --------------------------------------
@@ -31,4 +31,9 @@ The one key concept arising out of these conversations is to think from the Engi
 This in my mind is akin to DC vs. DCC control to a certain extent. In DC, you're effectively driving or controlling the track, not the locomotives directly, whereas in DCC you are controlling the locomotives directly.
 
 As an example of putting this concept into practise, consider the RESERVE() and FREE() functions that control when a locomotive and enter a virtual block.
+
+
+
+Tricks
+=======
 
